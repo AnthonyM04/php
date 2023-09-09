@@ -32,5 +32,25 @@
 <!-- how to deal with quotes and other special characters. -->
 <?php
   echo "Joe's nickname in high school was \"Crazy Joe.\"";
+  echo "this is 100 percent true."
   // the back lashes tell the computer to ignore what is between and to not treat those characters as code!
 ?>
+
+<?php
+  $age = 36;
+  $color1 = 'red';
+  $color2 = 'green';
+
+  $colors = array('red', 'green', 'blue', 'yellow', 'purple');  
+
+echo $colors[0];
+
+$fav_colors = array(
+  'joe' => 'red',
+  'erin' => 'blue',
+  'teresa' => 'green',
+  'lou' => 'yellow',
+  'abby' => 'purple'
+);
+
+echo $fav_colors['teresa'];
